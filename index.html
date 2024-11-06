@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBAVLhCF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="mainMessage">VBAVLhCF</h1>
+        <p id="hiddenMessage" class="hidden">This is the hidden message that appears when you click the main text.</p>
+    </div>
+
+    <script>
+        // JavaScript to toggle visibility of the hidden message
+        document.getElementById('mainMessage').addEventListener('click', function() {
+            var hiddenMessage = document.getElementById('hiddenMessage');
+            hiddenMessage.classList.toggle('hidden'); // Toggle the 'hidden' class
+        });
+    </script>
+</body>
+</html>
